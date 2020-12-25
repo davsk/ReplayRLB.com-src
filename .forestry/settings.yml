@@ -5,11 +5,41 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: about
+  label: About
+  create: documents
+  match: "**/*"
+- type: directory
+  path: posts
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: catalog
+  label: Catalog
+  create: documents
+  match: "**/*"
+- type: directory
   path: departments
   label: Departments
   create: all
   match: "**/*"
-upload_dir: static/images
+- type: directory
+  path: events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
+  path: staff
+  label: Staff
+  create: documents
+  match: "**/*"
+- type: directory
+  path: legal
+  label: Legal
+  create: documents
+  match: "**/*"
+upload_dir: static/graphics/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false

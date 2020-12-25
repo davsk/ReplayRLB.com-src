@@ -1,7 +1,7 @@
 ---
-title: 'Ananke: a Hugo Theme'
+title: Replay-RL-Booster
 featured_image: "/images/gohugo-default-sample-hero-image.jpg"
-description: The last theme you'll ever need. Maybe.
+description: Get the help you need!
 
 ---
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+Welcome to my team. Meet my staff, their cards are below.

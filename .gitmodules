@@ -1,3 +1,6 @@
 [submodule "themes"]
 	path = themes
 	url = git@github.com:davsk/hugoThemes.git
+[submodule "static/graphics"]
+	path = static/graphics
+	url = git@github.com:davsk/ReplayRLB-Graphics.git

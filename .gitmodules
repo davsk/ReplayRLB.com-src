@@ -4,3 +4,6 @@
 [submodule "static/graphics"]
 	path = static/graphics
 	url = git@github.com:davsk/ReplayRLB-Graphics.git
+[submodule "scss"]
+	path = scss
+	url = git@github.com:davsk/ReplayRLB-SCSS.git

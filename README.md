@@ -1,8 +1,8 @@
-# Hugo Ananke Forestry Starter
+# ReplayRLB.com 
 
-Ready-to-use Forestry starter with Hugo Ananke Theme.
+Source repo for ReplayRLB.com using Davsk Hugo Ananke Forestry Theme
 
-[Live Preview](https://gohugo-ananke-theme-demo.netlify.app/)
+[ReplayRLB.com](https://ReplayRLB.com/robots.txt)
 
 [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) is developed by [The New Dynamic](https://www.thenewdynamic.com/).
 

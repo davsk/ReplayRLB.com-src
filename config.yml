@@ -1,10 +1,7 @@
 baseURL: "https://ReplayRLB.com/"
 languageCode: "en-us"
 title: "Replay.RL.Booster Portal"
-
-module:
-  imports:
-    - path: github.com/theNewDynamic/gohugo-theme-ananke
+theme: davsk-gohugo-theme
 
 DefaultContentLanguage: en
 SectionPagesMenu: main
@@ -18,7 +15,7 @@ sitemap:
 params:
   favicon: ''
   site_logo: ''
-  description: The last theme you'll ever need. Maybe.
+  description: If you want to be the best, get mentored by the best!
   facebook: ''
   twitter: 'https://twitter.com/GoHugoIO'
   instagram: ''

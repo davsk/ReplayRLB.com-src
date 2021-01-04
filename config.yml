@@ -1,6 +1,6 @@
-baseURL: "http://example.org/"
+baseURL: "https://ReplayRLB.com/"
 languageCode: "en-us"
-title: "Hugo Ananke Forestry Starter"
+title: "Replay.RL.Booster Portal"
 
 module:
   imports:

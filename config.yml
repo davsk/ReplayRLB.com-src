@@ -2,7 +2,7 @@ baseURL: "https://ReplayRLB.com/"
 languageCode: "en-us"
 title: "Replay.RL.Booster Portal"
 theme: davsk-gohugo-theme
-
+themesDir: themes
 DefaultContentLanguage: en
 SectionPagesMenu: main
 Paginate: 3

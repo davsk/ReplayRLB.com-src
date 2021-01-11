@@ -2,3 +2,5 @@
 label: Staff
 hide_body: false
 fields: []
+pages:
+- staff/Robot_HK-46.md

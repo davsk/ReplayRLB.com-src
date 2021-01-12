@@ -23,5 +23,73 @@ fields:
 - type: boolean
   name: disable_share
   label: disable_share
+- name: staff_member_s_name
+  type: text
+  config:
+    required: false
+    min: 4
+  label: Staff Member's Name
+- name: staff_member_s_personal_logo
+  type: file
+  config:
+    maxSize: 64
+  label: Staff Member's Personal Logo
+- name: department
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Booster
+    - Coach
+    - Admin
+    - Tech
+  label: Department
+- name: games
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Rocket League
+    - " Call of Duty"
+    - " Ingnomia"
+  label: Games
+- name: rocket_league_game_modes
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - Hoops
+    - Snowday
+    - Rumble
+    - Dropshot
+    - Tournament
+    - Ones
+    - Doubles
+    - Standard
+  label: Rocket League Game Modes
+- name: call_of_duty_game_modes
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Call of Duty Game Modes
+- name: clips_and_pics
+  type: image_gallery
+  config: {}
+  label: Clips and Pics
+  description: attach clips here.
 pages:
 - staff/Robot_HK-46.md

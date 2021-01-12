@@ -5,7 +5,6 @@ date = 2021-01-12T00:13:20Z
 department = ["Booster"]
 description = ""
 disable_share = false
-draft = true
 featured_image = ""
 games = ["Rocket League"]
 rocket_league_game_modes = ["Dropshot"]

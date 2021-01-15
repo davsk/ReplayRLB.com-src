@@ -1,6 +1,6 @@
 +++
 call_of_duty_game_modes = []
-clips_and_pics = []
+clips_and_pics = ["images/rumble-clip_trim.mp4", "images/hoops-clip_trim.mp4", "images/double-tap-clip_trim.mp4"]
 date = 2021-01-15T21:18:53Z
 department = ["Booster"]
 description = "Hi, I go by GtrRacer1. Im a high gc player in doubles."

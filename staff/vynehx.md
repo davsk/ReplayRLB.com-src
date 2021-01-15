@@ -8,10 +8,10 @@ disable_share = false
 featured_image = "images/kirito_dual_sword_back.jpg"
 games = ["Rocket League"]
 rocket_league_game_modes = ["Doubles", "Hoops"]
-staff_member_s_name = "Vynehx"
+staff_member_s_name = "Ayze"
 staff_member_s_personal_logo = "images/kirito_dual_sword_back.jpg"
 tags = ["scene"]
-title = "Vynehx"
+title = "Ayze"
 
 +++
 I achieved SSL in Season 1(15) for Doubles.  

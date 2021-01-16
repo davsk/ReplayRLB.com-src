@@ -8,11 +8,11 @@ modules:
     path: "https://themes.gohugo.io/meghna-hugo/"
   module.imports:   
     path: "https://themes.gohugo.io/theme/educenter-hugo/"
-   module.imports:
+  module.imports:
     path: "https://themes.gohugo.io/theme/airspace-hugo/"
-   module.imports:
+  module.imports:
     path: "https://themes.gohugo.io/theme/highlights/"
-DefaultContentLanguage: en.US
+DefaultContentLanguage: en-us
 SectionPagesMenu: main
 Paginate: 3
 googleAnalytics: ''

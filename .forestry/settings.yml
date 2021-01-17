@@ -39,7 +39,7 @@ sections:
   label: Legal
   create: documents
   match: "**/*"
-upload_dir: static/graphics/images
+upload_dir: static/images
 public_path: images
 front_matter_path: ''
 use_front_matter_path: 

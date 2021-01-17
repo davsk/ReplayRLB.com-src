@@ -17,6 +17,16 @@ SectionPagesMenu: main
 Paginate: 3
 googleAnalytics: ''
 enableRobotsTXT: true
+taxonomies: 
+  category: categories
+  tag: tags
+  department: departments
+  member: members
+  game: games
+  event: events
+  legal: legals
+  rlmode: rlmodes
+  codmode: codmodes
 sitemap:
   changefreq: monthly
   priority: 0.5

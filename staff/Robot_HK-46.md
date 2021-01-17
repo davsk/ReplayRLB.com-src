@@ -10,7 +10,7 @@ games = []
 rocket_league_game_modes = []
 staff_member_s_name = "Robot HK-40"
 staff_member_s_personal_logo = ""
-tags = []
+tags = ["robot"]
 title = "Robot HK-46"
 
 +++

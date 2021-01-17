@@ -5,9 +5,9 @@ modules:
   module.imports:
     path: "https://github.com/davsk/Davsk-Hugo-Forestry-Theme.git"
   module.imports:
-    path: "https://themes.gohugo.io/meghna-hugo/"
-  module.imports:
     path: "https://github.com/theNewDynamic/gohugo-theme-ananke.git"
+  module.imports:
+    path: "https://themes.gohugo.io/meghna-hugo/"
   module.imports:   
     path: "https://themes.gohugo.io/theme/educenter-hugo/"
   module.imports:

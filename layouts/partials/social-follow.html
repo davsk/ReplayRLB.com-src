@@ -12,6 +12,18 @@
   {{- partial "new-window-icon.html" . -}}
 </a>
 {{ end }}
+{{ with .Param "twitch" }}
+<a href="{{ . }}" target="_blank" class="link-transition twitch link dib z-999 pt3 pt0-l mr1" title="Twitch link" rel="noopener" aria-label="follow on Twitch——Opens in a new window">
+  {{ partial "svg/twitch-round.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
+{{ with .Param "tiktok" }}
+<a href="{{ . }}" target="_blank" class="link-transition tiktok link dib z-999 pt3 pt0-l mr1" title="TikTok link" rel="noopener" aria-label="follow on TikTok——Opens in a new window">
+  {{ partial "svg/tiktok-round.svg" (dict "size" $icon_size) }}
+  {{- partial "new-window-icon.html" . -}}
+</a>
+{{ end }}
 {{ with .Param "twitter" }}
 <a href="{{ . }}" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
   {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}

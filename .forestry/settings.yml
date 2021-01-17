@@ -24,16 +24,22 @@ sections:
   label: Departments
   create: all
   match: "**/*"
+  templates:
+  - department
 - type: directory
   path: events
   label: Events
   create: all
   match: "**/*"
+  templates:
+  - event
 - type: directory
   path: staff
   label: Staff
   create: documents
   match: "**/*"
+  templates:
+  - staff
 - type: directory
   path: legal
   label: Legal

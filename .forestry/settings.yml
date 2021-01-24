@@ -34,7 +34,7 @@ sections:
   templates:
   - event
 - type: directory
-  path: staff
+  path: content/staff
   label: Staff
   create: documents
   match: "**/*"

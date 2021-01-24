@@ -5,29 +5,29 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: about
+  path: content/about
   label: About
   create: documents
   match: "**/*"
 - type: directory
-  path: posts
+  path: content/posts
   label: Blog
   create: all
   match: "**/*"
 - type: directory
-  path: catalog
+  path: content/catalog
   label: Catalog
   create: documents
   match: "**/*"
 - type: directory
-  path: departments
+  path: content/departments
   label: Departments
   create: all
   match: "**/*"
   templates:
   - department
 - type: directory
-  path: events
+  path: content/events
   label: Events
   create: all
   match: "**/*"
@@ -41,7 +41,7 @@ sections:
   templates:
   - staff
 - type: directory
-  path: legal
+  path: content/legal
   label: Legal
   create: documents
   match: "**/*"

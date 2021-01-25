@@ -1,5 +1,5 @@
 [submodule "themes"]
-	path = themes
+	path = themes/davsk-gohugo-theme
 	url = git@github.com:davsk/davsk-gohugo-theme.git
 [submodule "static/graphics"]
 	path = static/graphics

@@ -7,6 +7,6 @@
 [submodule "scss"]
 	path = scss
 	url = git@github.com:davsk/ReplayRLB-SCSS.git
-[submodule "themes/davsk-gohugo-theme"]
-	path = themes/davsk-gohugo-theme
-	url = git@github.com:davsk/davsk-gohugo-theme.git
+#[submodule "themes/davsk-gohugo-theme"]
+	#path = themes/davsk-gohugo-theme
+	#url = git@github.com:davsk/davsk-gohugo-theme.git

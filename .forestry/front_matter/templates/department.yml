@@ -24,5 +24,5 @@ fields:
   name: disable_share
   label: disable_share
 pages:
-- departments/boosters.md
-- departments/coaches.md
+- content/departments/boosters.md
+- content/departments/coaches.md

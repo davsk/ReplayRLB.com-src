@@ -14,3 +14,4 @@ tags = ["scene"]
 title = "RL_Brett"
 
 +++
+SSL in rumble and GC for the last 3/4 seasons in a row.

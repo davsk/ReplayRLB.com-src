@@ -1,11 +1,7 @@
 ---
 title: About
-description: 'A few years ago, while visiting or, rather, rummaging about Notre-Dame,
-  the author of this book found, in an obscure nook of one of the towers, the following
-  word, engraved by hand upon the wall: —ANANKE.'
+description: Check out our about page to hear how we started our company!
 featured_image: ''
 
 ---
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
-
-_The Hunchback of Notre-Dame_ (French: _Notre-Dame de Paris_) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.
+![](images/logo2d-1.png)This started out as a fiver boosting gig for dropshot, which eventually grew so much that i couldn't get all the orders done myself! I also branched out to Hoops, Snowday, and also getting tournament titles for people! Between all of this i couldn't get it all done in a timely matter, so i decided to make a boosting service in which i have hired other boosters who I deeply trust and have known for a long time, All being just as great players. But each of us has purpose and can provide better service in different modes! Each one of us mains different modes, therefore we can provide the best service possible to you no matter what mode or what rank you desire! We also offer out Coaching and Also will be selling high ranked accounts that already have gc tags and are gc in different modes! We provide fast and cheap boosting, we are also the only boosting service you can get your desired extra modes title, or even get some special coaching in them! Whatever you desire! For extra modes each booster is at least a Top 100 player in! Most are in the Top 10! For personal and confidential reasons the boosters names are not exposed. I can provide a dm with proof of there ranks and expertise upon request! Im hoping this can become a great service and i can expand from fiver to my own Rocket League Service! Lets get you started today!

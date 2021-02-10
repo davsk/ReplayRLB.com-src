@@ -17,7 +17,8 @@ modules:
     path: "https://themes.gohugo.io/theme/highlights/"
 DefaultContentLanguage: en-us
 SectionPagesMenu: main
-Paginate: 3
+Paginate: '6'
+summaryLength: '15'
 googleAnalytics: ''
 enableRobotsTXT: true
 taxonomies: 
@@ -35,6 +36,23 @@ sitemap:
   priority: 0.5
   filename: sitemap.xml
 params:
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/themify-icons/themify-icons.css
+      - link: plugins/magnific-popup/magnific-popup.css
+      - link: plugins/slick/slick.css
+      - link: >-
+          https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap
+    js:
+      - link: plugins/jquery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/shuffle/shuffle.min.js
+      - link: plugins/magnific-popup/jquery.magnific-popup.min.js
+      - link: plugins/lazy-load/lozad.min.js
+      - link: plugins/google-map/map.js
+  
   favicon: ''
   site_logo: ''
   description: If you want to be the best, get mentored by the best!
@@ -55,21 +73,3 @@ params:
   featured_image: /images/gohugo-default-sample-hero-image.jpg
   recent_posts_number: 2
 
-# Plugins copied and converted from mehgna
-params:
-  plugins:
-    css:
-      - link: plugins/bootstrap/bootstrap.min.css
-      - link: plugins/themify-icons/themify-icons.css
-      - link: plugins/magnific-popup/magnific-popup.css
-      - link: plugins/slick/slick.css
-      - link: >-
-          https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap
-    js:
-      - link: plugins/jquery/jquery.min.js
-      - link: plugins/bootstrap/bootstrap.min.js
-      - link: plugins/slick/slick.min.js
-      - link: plugins/shuffle/shuffle.min.js
-      - link: plugins/magnific-popup/jquery.magnific-popup.min.js
-      - link: plugins/lazy-load/lozad.min.js
-      - link: plugins/google-map/map.js

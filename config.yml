@@ -1,6 +1,7 @@
 baseURL: "https://ReplayRLB.com/"
 languageCode: "en-us"
 title: "Replay.RL.Booster Portal"
+theme: meghna hugo
 modules:
   module.imports:
     path: "https://github.com/davsk/Davsk-Hugo-Forestry-Theme.git"

@@ -6,9 +6,9 @@ name: PayPalBtn
  resources:
    - https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css
    - https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js
-panal_html: 0
+panel_html: 0
 panel_js: 0
-panel_css: 1
+css_panel: 1
 lang_css: SCSS
 normalize_css: yes
 wrap: b

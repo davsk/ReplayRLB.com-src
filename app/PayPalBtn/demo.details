@@ -5,13 +5,12 @@
  authors:
    - David Lynn Skinner
    - Elijah Alexander Skinner
- resources:
+normalize_css: yes
+lang_css: SCSSresources:
    - /js/empty.js
    - /css/normalize.css
    - https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css
    - https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js
-normalize_css: yes
-lang_css: SCSS
 ...
 */
 

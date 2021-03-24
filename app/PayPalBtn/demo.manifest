@@ -9,5 +9,6 @@ name: PayPalBtn
 panal_html: 0
 panel_js: 0
 panel_css: 1
+lang_css: SCSS
 normalize_css: yes
 wrap: b

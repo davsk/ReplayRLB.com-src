@@ -1,0 +1,74 @@
+ <form onload="initForm()" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <div class="form-boost">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3K45VM2R973GY">
+
+        <fieldset>
+          <legend>Ranking</legend>
+
+          <label for="rank-current">
+            Current Rank
+          </label>
+
+          <select id="rank-current" name="rank-current" class="form-select" onchange="onChangeCurrent()">
+            <option value="0">Select</option>
+          </select>
+
+          <label for="rank-desired" class="col-sm-4 col-form-label">
+            Desired Rank
+          </label>
+
+          <select id="rank-desired" onchange="calcPrice()" name="rank-desired" class="form-select">
+            <option value="0">Select</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="op2" class="col-sm-4 col-form-label">
+            Platform
+          </label>
+
+          <select id="rank-platform" onchage="calcPrice()" name="rank-platform" class="form-select">
+            <option value="PC">PC</option>
+            <option value="PS4">PS4</option>
+            <option value="XBOX">XBOX</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label for="rank-queue" class="col-sm-4 col-form-label">
+            Queue
+          </label>
+
+          <select id="rank-queue" name="rank-queue" onchange="calcPrice()" class="form-select">
+            <option value="1v1">1v1 (Solo Duels)</option>
+            <option value="2v2">2v2 (Doubles) ( +15% )</option>
+            <option value="3v3">3v3 (Standard) ( +25% )</option>
+            <option value="Rumble">Rumble</option>
+            <option value="Dropshot">Dropshot</option>
+            <option value="Hoops">Hoops</option>
+            <option value="Snow Day">Snow Day</option>
+          </select>
+        </fieldset>
+        <!-- CheckBox -->
+        <fieldset class="form-check col-sm-4">
+          <input type="checkbox" id="booster" name="booster" onchange="calcPrice()" value="Booster" class="form-check-input" />
+          <label for="booster" class="form-check-label">
+            Play with booster +50% cost
+          </label>
+        </fieldset>
+
+        <!-- Price -->
+        <fieldset>
+          <label for="op1">Price: </label>
+          <span id="price-text" for="rank-desired rank-current rank-queue booster">Boost $3.00 USD</span>
+        </fieldset>
+        <fieldset>
+          <input type="hidden" name="currency_code" value="USD">
+
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </fieldset>
+      </div>
+    </form>
